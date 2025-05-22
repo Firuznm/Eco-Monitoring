@@ -132,20 +132,22 @@ footer{
 .address,
 .whatsapp,
 .mail{
-  display: flex;
+  display: inline-flex;
   align-items: center;
   margin: 10px 0;
   color: white;
+  
 }
-.mail svg {
-  width: 40px;
-  height: 40px;
-}
+.mail svg ,
 .address svg,
 .whatsapp svg{
 width: 30px;
 height: 30px;
 margin-right: 10px;
+}
+.address svg{
+  width: 33px;
+  height: 33px;
 }
 
 
@@ -171,7 +173,6 @@ margin-right: 10px;
      width: 85%;
      font-size: 18px;
     padding: 5px 15px;
-   
   }
   .services .moreBtn{
     font-size: 18px;
@@ -192,31 +193,19 @@ margin-right: 10px;
     width: 50px;
     height: 50px;
   }
-      
-
   .footerContent{
     width: 85%;
   }
-  /* .address,
-  .whatsapp,
-  .mail{
-    display: flex;
-    align-items: center;
-    margin: 10px 0;
-    color: white;
-  } */
-  .mail svg {
+  .mail svg ,
+  .address svg,
+  .whatsapp svg{
+  width: 30px;
+  height: 30px;
+  }
+  .address svg{
     width: 45px;
     height: 45px;
-  }
-  .whatsapp svg{
-    width: 25px;
-    height: 25px;
-  }
-  .address svg
-{
-  width: 40px;
-  height: 40px;
+
   }
   
 }
