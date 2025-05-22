@@ -1,0 +1,219 @@
+body,html{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Instrument Sans", sans-serif;
+}
+.container{
+  max-width: 1400px;
+  margin: 0 auto;
+}
+a{
+  text-decoration: none;
+}
+#main{
+  background-image: url("./assets/Images/ecoBgImg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.ecoLogo{
+  display: block;
+  width: 65%;
+  margin: 0 auto;
+  padding: 80px 0 40px;
+}
+
+.langList{
+  width: 65%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btnLang{
+  cursor: pointer;
+  text-align: center;
+  padding: 10px;
+  width: 50px;
+  color: rgba(34, 76, 34, 1);
+  background-color: rgba(34, 76, 34, 0.21);
+  border-radius: 10px;
+ font-weight: 700;
+ font-size: 18px;
+}
+.activeLang{
+  background-color:rgba(34, 76, 34, 1);
+  color: rgba(160, 174, 158, 1);
+}
+.title{
+  margin: 40px 0 20px;
+  text-align: center;
+  font-size: 70px;
+  font-weight: 700;
+  color: rgba(34, 76, 34, 1);
+}
+.aboutDescription{
+  width: 85%;
+  margin: 0 auto;
+  font-size: 25px;
+  text-align: center;
+  white-space: pre-line;
+}
+.services{
+  display: flex;
+  flex-direction: column;
+}
+.services .service{
+   width: 85%;
+   display: block;
+   font-size: 25px;
+  padding: 10px 20px;
+  background-color: rgba(160, 174, 158, 1);
+  color: rgba(34, 76, 34, 1);
+  border-radius: 14px;
+  margin: 10px auto;
+ 
+}
+.services .moreBtn{
+  display: inline-block;
+  padding: 15px 25px;
+  background-color: rgba(55, 124, 55, 1);
+  color: white;
+  font-size: 25px;
+  font-weight: 700;
+  border-radius: 14px;
+  margin: 25px auto;
+  cursor: pointer;
+}
+.socialList{
+  width: 97%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin: 35px auto;
+}
+.socialList .social{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  font-size: 25px;
+  font-weight: 700;
+  padding: 0 40px;
+  background-color: rgba(34, 76, 34, 1);
+  color: white;
+  text-decoration: none;
+  border-radius: 40px 0;
+  transition: .8s ease;
+}
+.socialList .social:hover{
+  background-color: rgb(3, 34, 3);
+}
+.socialList .social svg{
+  margin-right: 20px;
+  width: 60px;
+  height: 60px;
+}
+    
+footer{
+  background-color: rgba(34, 76, 34, 1);
+  margin-top: 20px;
+}
+.footerContent{
+  width: 96%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+
+}
+.address,
+.whatsapp,
+.mail{
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  color: white;
+}
+.mail svg {
+  width: 40px;
+  height: 40px;
+}
+.address svg,
+.whatsapp svg{
+width: 30px;
+height: 30px;
+margin-right: 10px;
+}
+
+
+/* Page responsive */
+@media only screen and (max-width: 750px) {
+  .ecoLogo{
+    width: 85%;
+  }
+  
+  .langList{
+    width: 85%;
+  }
+
+  .title{
+    font-size: 30px;
+    font-weight: 600;
+  }
+  .aboutDescription{
+    width: 90%;
+    font-size: 17px;
+  }
+  .services .service{
+     width: 85%;
+     font-size: 18px;
+    padding: 5px 15px;
+   
+  }
+  .services .moreBtn{
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .socialList{
+   justify-content: center;
+  }
+  .socialList .social{
+    height: 100px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0 40px;
+    border-radius: 80px 0;
+  }
+  .socialList .social svg{
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+  }
+      
+
+  .footerContent{
+    width: 85%;
+  }
+  /* .address,
+  .whatsapp,
+  .mail{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    color: white;
+  }
+  .mail svg {
+    width: 40px;
+    height: 40px;
+  }
+  .address svg,
+  .whatsapp svg{
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  } */
+  
+}
