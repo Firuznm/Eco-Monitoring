@@ -117,7 +117,9 @@ function App() {
             >
               <WhatsappIcon /> +994 50 612 19 15
             </a>
-            <a href="" className="mail">
+            <a
+              className="mail"
+            >
               <MailIcon /> info@ekomonitorinq.az ekomonitorinq@gmail.com
             </a>
           </div>
